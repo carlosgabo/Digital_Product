@@ -1,0 +1,115 @@
+.containers{
+ max-width: 900px;
+ margin: auto;       /* para que se centre  */
+ padding-top: 6em;
+}
+
+/* -------- donde container>row>column (container padre de row....) -------*/
+
+/* forma 1 */
+
+.row {
+ display: grid;
+ grid-template-columns: repeat(2, 50%);    
+ grid-gap: 10px;
+ margin-left: 5em;
+ margin-bottom: -10em;
+}
+
+.catalog-seeds{
+ margin-right: -5em;
+}
+
+.title-products{
+ padding-bottom: 10em;
+ font-family: 'Merriweather', serif;
+}
+
+.text-cbdSeeds{
+ font-family: 'Merriweather', serif;
+ font-size: 12px;
+ margin-left: -6em;
+font-weight: normal;
+}
+
+.text-thcSeeds{
+ font-family: 'Merriweather', serif;
+ font-size: 12px;
+ font-weight: normal;
+}
+
+.cbdSeed-img{
+ height: 20%;
+ margin-top: 2.5em;
+ 
+}
+
+.thcSeed-img{
+ height: 20%;
+ margin-left: 10em;
+ margin-top: 2.5em;
+ 
+}
+
+@media screen and (max-width:0px) {
+ .row {
+     display: inherit;
+     width: 100%;
+ }
+}
+
+/* Forma 2 */
+
+/* .row{
+ display: flex;
+}
+
+ .col-1{
+  width: 8.33333333333%;
+ }
+
+ .col-2{
+  width: 16,6666666666%;
+ }
+
+ .col-3{
+  width: 25%;
+ }
+
+ .col-4{
+  width: 33,3333333333%;
+ }
+
+ .col-5{
+  width: 41,6666666666%;
+ }
+
+ .col-6{
+  width: 50%;
+ }
+
+ .col-7{
+  width: 58,333333333%;
+ }
+
+ .col-8{
+  width: 66,666666666%;
+ }
+
+ .col-9{
+  width: 75%;
+ }
+
+ .col-10{
+  width: 83,333333333%;
+ }
+
+ .col-11{
+  width: 91,666666666%;
+ }
+
+ .col-12{
+  width: 100%;
+ }
+
+  */

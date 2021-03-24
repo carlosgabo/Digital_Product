@@ -1,0 +1,63 @@
+@media (max-width: 600px){
+
+ .container{
+  display: block;
+ }
+
+ .ms-title{
+  margin-left: -2em;
+  margin-right: -2em;
+ }
+
+ .products{
+  display: inherit;     /* para quitar el orden horizontal */
+  height: auto;         /* el tamaño quede automatico */
+  padding-bottom: 4em;
+ }
+
+ .product{
+  margin-top: -1em;
+  margin-left: -5em;
+  margin-right: -5em;
+ }
+
+ .main-section{
+  padding: 2%;
+  margin-top: auto;
+ }
+
+ .ic-plantas{
+  width: 80%;
+  padding-top: 2em;
+ }
+
+ .semillas-title{
+  text-align: center;
+ }
+ 
+ div h1{
+  padding-top: 20%;  
+ }
+
+ .contact{
+  display: inherit;
+ }
+
+ .footer{
+  display: inherit;
+ }
+
+ .more-products{
+  display: inherit;
+  margin-bottom: 0;
+ }
+
+ .subproduct{
+  padding-bottom: 5em;
+ }
+
+ .subproduct-title{
+  font-size: 2em;
+ }
+
+}
